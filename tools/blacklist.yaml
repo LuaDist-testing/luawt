@@ -1,0 +1,218 @@
+WAbstractItemView:
+  methods:
+  - clearSelection
+  - setHeaderClickSortEnabled
+  - setObjectName
+  - sortEnabled
+WAbstractSpinBox:
+  methods:
+  - refresh
+WAbstractToggleButton:
+  methods:
+  - refresh
+  - setTextFormat
+  - setWordWrap
+  - textFormat
+  - wordWrap
+WAnchor:
+  methods:
+  - canReceiveFocus
+  - setFirstFocus
+  - tabIndex
+WApplication:
+  methods:
+  - removeStyleSheet
+  - setConnectionMonitor
+  - waitForEvent
+  signatures:
+  - quit(WString)
+WCheckBox:
+  methods:
+  - isPartialStateSelectable
+  - setPartialStateSelectable
+WComboBox:
+  methods:
+  - noSelectionEnabled
+  - selectionMode
+  - setNoSelectionEnabled
+WCompositeWidget:
+  methods:
+  - canReceiveFocus
+  - hasFocus
+  - objectName
+  - propagateSetVisible
+  - setCanReceiveFocus
+  - setDeferredToolTip
+  - setFirstFocus
+  - setFocus
+  - setObjectName
+  - zIndex
+WDateEdit:
+  methods:
+  - load
+WDatePicker:
+  methods:
+  - popupWidget
+WDialog:
+  methods:
+  - raiseToFront
+  - setAutoFocus
+  signatures:
+  - rejectWhenEscapePressed()
+  - rejectWhenEscapePressed(bool)
+WDoubleSpinBox:
+  methods:
+  - refresh
+WFileUpload:
+  methods:
+  - setFilters
+WGLWidget:
+  methods:
+  - attachShader
+  - bindAttribLocation
+  - bindBuffer
+  - bindFramebuffer
+  - bindRenderbuffer
+  - bindTexture
+  - bufferSubData
+  - clearBinaryResources
+  - compileShader
+  - createAndLoadArrayBuffer
+  - createBuffer
+  - createFramebuffer
+  - createProgram
+  - createRenderbuffer
+  - createShader
+  - createTexture
+  - createTextureAndLoad
+  - deleteBuffer
+  - deleteFramebuffer
+  - deleteProgram
+  - deleteRenderbuffer
+  - deleteShader
+  - deleteTexture
+  - detachShader
+  - disableVertexAttribArray
+  - enableVertexAttribArray
+  - framebufferRenderbuffer
+  - framebufferTexture2D
+  - getAttribLocation
+  - getUniformLocation
+  - initializeGL
+  - linkProgram
+  - paintGL
+  - resizeGL
+  - restoringContext
+  - setClientSideMouseHandler
+  - setRenderOptions
+  - shaderSource
+  - uniform1f
+  - uniform1i
+  - uniform2f
+  - uniform2i
+  - uniform3f
+  - uniform3i
+  - uniform4f
+  - uniform4i
+  - updateGL
+  - useProgram
+  - validateProgram
+  - vertexAttrib1f
+  - vertexAttrib2f
+  - vertexAttrib3f
+  - vertexAttrib4f
+  - vertexAttribPointer
+  - webglNotAvailable
+  signatures:
+  - bufferData(WGLWidget::GLenum,::std::string,WGLWidget::GLenum)
+  - bufferData(WGLWidget::GLenum,::std::string,unsignedint,unsignedint,WGLWidget::GLenum)
+WIcon:
+  whole class: true
+WInPlaceEdit:
+  methods:
+  - placeholderText
+  - setPlaceholderText
+  signatures:
+  - WInPlaceEdit(WContainerWidget*)
+  - WInPlaceEdit(bool,WString,WContainerWidget*)
+WMediaPlayer:
+  methods:
+  - refresh
+WMessageBox:
+  methods:
+  - buttons
+  - defaultButton
+  - escapeButton
+  - iconImage
+  - setDefaultButton
+  - setEscapeButton
+  - setStandardButtons
+  - standardButtons
+  signatures:
+  - addButton(StandardButton)
+  - addButton(WPushButton*,StandardButton)
+WMenu:
+  signatures:
+  - addItem(WMenuItem*)
+  - insertItem(int,WMenuItem*)
+WSuggestionPopup:
+  methods:
+  - currentItem
+  - editRole
+  - setDropDownIconUnfiltered
+  - setEditRole
+WTabWidget:
+  methods:
+  - setOverflow
+WTableCell:
+  methods:
+  - WTableCell
+  - isVisible
+WTableView:
+  methods:
+  - scrollTo
+  - setOverflow
+WTemplate:
+  methods:
+  - encodeTemplateText
+  - getErrorText
+  - setEncodeTemplateText
+  - setWidgetIdMode
+  - varName
+  - widgetIdMode
+WText:
+  methods:
+  - setTextAlignment
+  - textAlignment
+WTextEdit:
+  methods:
+  - propagateSetEnabled
+  - setPlaceholderText
+  - setReadOnly
+  - version
+WTimeEdit:
+  whole class: true
+WTimePicker:
+  whole class: true
+WToolBar:
+  methods:
+  - addWidget
+  - removeWidget
+  - setOrientation
+  signatures:
+  - addButton(WPushButton*)
+  - addButton(WPushButton*,AlignmentFlag)
+  - addButton(WSplitButton*)
+  - addButton(WSplitButton*,AlignmentFlag)
+WWidget:
+  methods:
+  - canReceiveFocus
+  - hasFocus
+  - isExposed
+  - setCanReceiveFocus
+  - setDeferredToolTip
+  - setFirstFocus
+  - setFocus
+  - setObjectName
+  - zIndex
+
